@@ -1,72 +1,43 @@
-# 0x04. AirBnB clone - Web framework
+# Web Flask
 
-## Description
-What you should learn from this project:
+This was a sub-project within AirBnB in which I began working with Flask
+and Jinja2. In this project, I began integrating the back-end storage engine
+with the web static HTML/CSS pages written earlier.
 
-* What is a Web Framework
-* How to build a web framework with Flask
-* How to define routes in Flask
-* What is a route
-* How to handle variables in a route
-* What is a template
-* How to create a HTML response in Flask by using a template
-* How to create a dynamic template (loops, conditions…)
-* How to display in HTML data from a MySQL database
+Files 0 - 6 were introductory tasks familiarizing myself with
+using Flask. Files 7 forward involved gradually putting together more and more
+complex Jinja templates based on the HBnB HTML pages.
 
----
+The most complete Flask/Jinja app-template combo in this directory is defined
+in Flask module [100-hbnb.py](./100-hbnb.py) and Jinja template
+[100-hbnb.html](./100-hbnb.html).
 
-### [0. Hello Flask!](./0-hello_route.py)
-* Write a script that starts a Flask web application:
+To run the Flask app, execute the following command from the root directory
+of the project:
 
+```
+~ $ HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost
+HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db python3 -m web_flask.100-hbnb
+```
 
-### [1. HBNB](./1-hbnb_route.py)
-* Write a script that starts a Flask web application:
+The app can be accessed at `0.0.0.0:5000/hbnb`.
 
-
-### [2. C is fun!](./2-c_route.py)
-* Write a script that starts a Flask web application:
-
-
-### [3. Python is cool!](./3-python_route.py)
-* Write a script that starts a Flask web application:
-
-
-### [4. Is it a number?](./4-number_route.py)
-* Write a script that starts a Flask web application:
-
-
-### [5. Number template](./5-number_template.py)
-* Write a script that starts a Flask web application:
-
-
-### [6. Odd or even?](./6-number_odd_or_even.py)
-* Write a script that starts a Flask web application:
-
-
-### [7. Improve engines](./models/engine/file_storage.py)
-* Before using Flask to display our HBNB data, you will need to update some part of our engine:
-
-
-### [8. List of states](./web_flask/7-states_list.py)
-* Write a script that starts a Flask web application:
-
-
-### [9. Cities by states](./web_flask/8-cities_by_states.py)
-* Write a script that starts a Flask web application:
-
-
-### [10. States and State](./web_flask/9-states.py)
-* Write a script that starts a Flask web application:
-
-
-### [11. HBNB filters](./web_flask/10-hbnb_filters.py)
-* Write a script that starts a Flask web application:
-
-
-### [12. HBNB is alive!](./web_flask/100-hbnb.py)
-* Write a script that starts a Flask web application:
+Screenshots:
+<p align="center">
+  <img src="https://github.com/bdbaraban/AirBnB_clone_v2/blob/master/assets/hbnb_screenshot_0.png"
+       alt="HolbertonBnB logo">
+</p>
 
 ---
 
-## Author
-* **Nathan Petersen** - [blueExcess](https://github.com/blueExcess)
+<p align="center">
+  <img src="https://github.com/bdbaraban/AirBnB_clone_v2/blob/master/assets/hbnb_screenshot_1.png"
+       alt="HolbertonBnB logo">
+</p>
+
+---
+
+<p align="center">
+  <img src="https://github.com/bdbaraban/AirBnB_clone_v2/blob/master/assets/hbnb_screenshot_2.png"
+       alt="HolbertonBnB logo">
+</p>
